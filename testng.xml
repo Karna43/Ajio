@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Ajio" verbose="2" parallel="classes" thread-count="2">
+	<test name="test">
+		<classes>
+			<class name = "com.ajio.runner.TestRunner"/>
+		</classes>
+	</test>
+	<test name="test1">
+		<classes>
+			<class name = "com.ajio.runner.TestRunner2"/>
+		</classes>
+	</test>
+</suite>
